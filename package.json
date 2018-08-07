@@ -1,0 +1,31 @@
+{
+  "name": "prismagen-scalajs",
+  "version": "2018.8.7",
+  "description": "Converts prisma.graphql to prisma sdk",
+  "bin": {
+    "prismagen-scalajs": "bin/prismagen-scalajs"
+  },
+  "scripts": {
+    "prepublish": "sbt 'show fullOptJS'",
+    "test": "sbt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scalajs-graphql/prismagen-scalajs.git"
+  },
+  "keywords": [
+    "scalajs",
+    "graphql",
+    "models",
+    "cli"
+  ],
+  "dependencies": {
+    "graphql": "^0.13.2"
+  },
+  "author": "chandu0101",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scalajs-graphql/prismagen-scalajs/issues"
+  },
+  "homepage": "https://github.com/scalajs-graphql/prismagen-scalajs#readme"
+}
