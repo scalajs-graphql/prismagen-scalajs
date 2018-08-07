@@ -15,10 +15,10 @@ npm install -g  prismagen-scalajs
 
 //run
 
-graphql-sjs-models --schema ./data/prisma.graphql --output src/main/scala/app/server/db
+prismagen-scalajs --schema ./data/prisma.graphql --output src/main/scala/app/server/db
 
 or 
 
-graphql-sjs-models --s ./data/prisma.graphql --o src/main/scala/app/server/db 
+prismagen-scalajs --s ./data/prisma.graphql --o src/main/scala/app/server/db 
 
 ```
